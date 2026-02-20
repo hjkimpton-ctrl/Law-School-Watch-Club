@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lex Chronos | Jurisprudence in Motion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Montserrat:wght@200;400;500&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; letter-spacing: 0.02em; }
+        .serif { font-family: 'Cormorant Garamond', serif; }
+        .gold-gradient { background: linear-gradient(135deg, #C5A059 0%, #E2C285 100%); }
+        .text-gold { color: #C5A059; }
+        .border-gold { border-color: #C5A059; }
+    </style>
+</head>
+<body class="bg-[#0A0A0A] text-white antialiased">
+
+    <div class="w-full py-2 bg-[#141414] border-b border-white/10 text-[10px] uppercase tracking-[0.3em] text-center text-slate-400">
+        Complimentary Insured Shipping for all 1L & 2L Members
+    </div>
+
+    <nav class="flex justify-between items-center px-12 py-8 bg-transparent">
+        <div class="flex gap-8 text-[11px] uppercase tracking-widest font-light">
+            <a href="#" class="hover:text-gold transition">The Vault</a>
+            <a href="#" class="hover:text-gold transition">Process</a>
+        </div>
+        <div class="text-3xl serif italic tracking-tighter">Lex Chronos</div>
+        <div class="flex gap-8 text-[11px] uppercase tracking-widest font-light">
+            <a href="#" class="hover:text-gold transition">Journal</a>
+            <a href="#" class="border-b border-gold pb-1">Membership</a>
+        </div>
+    </nav>
+
+    <header class="relative h-[85vh] flex items-center overflow-hidden border-y border-white/5">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&q=80&w=2000" 
+                 class="w-full h-full object-cover opacity-40 scale-105" alt="Luxury Watch Detail">
+        </div>
+        
+        <div class="relative z-10 px-12 max-w-3xl">
+            <h1 class="text-7xl md:text-8xl serif italic leading-tight mb-8">
+                The Gavel & <br>The Glass.
+            </h1>
+            <p class="text-slate-400 font-extralight text-lg max-w-md leading-relaxed mb-10">
+                Curating horological excellence for the next generation of the Bar. Borrow the prestige, own the outcome.
+            </p>
+            <div class="flex gap-6">
+                <button class="gold-gradient text-black px-10 py-4 text-[11px] font-bold uppercase tracking-[0.2em]">
+                    View The Collection
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-32 px-12 bg-white text-black">
+        <div class="flex justify-between items-end mb-20">
+            <div>
+                <span class="text-gold uppercase tracking-[0.3em] text-[10px] font-bold">The Tiers</span>
+                <h2 class="text-5xl serif mt-2">Tailored for your Tenure</h2>
+            </div>
+            <p class="max-w-xs text-sm font-light leading-relaxed text-slate-500">
+                From interview-ready Seikos to board-room Hamiltons, select a plan that matches your current standing.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-slate-200 border border-slate-200">
+            <div class="bg-white p-16 group hover:bg-slate-50 transition duration-700">
+                <span class="text-slate-400 text-sm">01.</span>
+                <h3 class="text-3xl serif italic my-6">The Associate</h3>
+                <p class="mb-8 font-light text-slate-600">Entry into the world of mechanical watches. Featuring Seiko 5, Orient Bambino, and Tissot PRX.</p>
+                <div class="text-2xl font-light mb-8">$45 <span class="text-sm text-slate-400">/ monthly</span></div>
+                <button class="border border-black px-8 py-3 text-[10px] uppercase tracking-widest hover:bg-black hover:text-white transition">Select Plan</button>
+            </div>
+
+            <div class="bg-white p-16 group hover:bg-slate-50 transition duration-700">
+                <span class="text-slate-400 text-sm">02.</span>
+                <h3 class="text-3xl serif italic my-6">The Partner</h3>
+                <p class="mb-8 font-light text-slate-600">Elevated horology. Featuring Hamilton Murph, Junghans Max Bill, and vintage Longines.</p>
+                <div class="text-2xl font-light mb-8">$95 <span class="text-sm text-slate-400">/ monthly</span></div>
+                <button class="border border-black px-8 py-3 text-[10px] uppercase tracking-widest hover:bg-black hover:text-white transition">Select Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 px-12 border-t border-white/10 text-center">
+        <div class="text-xl serif italic mb-8">Lex Chronos</div>
+        <div class="flex justify-center gap-12 text-[10px] uppercase tracking-[0.2em] text-slate-500">
+            <a href="#">Instagram</a>
+            <a href="#">Ethics Code</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
+
+</body>
+</html>
